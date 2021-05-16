@@ -1,0 +1,125 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #efefef;
+    font-size: 14px;
+    color: #333;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.blog-title {
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+/*headerスタイリング*/
+.header-list {
+    background-color: gray;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.header-list:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.header-item {
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+
+/*bodyのmainスタイリング*/
+.main {
+    height: 80%;
+}
+
+/*main全体スタイリング*/
+.article-body {
+    padding-top: 50px;
+}
+
+.article-body:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.article-container {
+    height: 100%;
+}
+
+/*articleスタイリング*/
+.article-wrapper {
+    margin-bottom: 50px;
+}
+
+.article-wrapper:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.blog-article-area {
+    float: left;
+    width: 650px;
+    margin-right: 120px;
+}
+
+.article-image {
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.article-info {
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+}
+
+/*新着記事スタイリング*/
+.new-article:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.new-article-area {
+    float: left;
+    width: 300px;
+}
+
+.new-article-image {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.new-ariticle-info {
+    float: left;
+}
+
